@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #ddd;
+}
+#container {
+    padding-bottom: 10px;
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+}
+input[type="image"] {
+    width: 300px;
+    margin-right: 30px;
+}
+label, input {
+    display: inline;
+}
+#search {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    height: 30px;
+}
+button[type="submit"] {
+    position: relative;
+    top: 10px;
+    height: 30px;
+    padding: 0px;
+    background: none;
+    border: none;
+}
+button[type="submit"]:hover{
+    cursor:pointer
+}

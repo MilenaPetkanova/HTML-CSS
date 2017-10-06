@@ -1,0 +1,52 @@
+body {
+
+}
+#wrapper {
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    background: #0067DB url("../resources/HawaiiBackground.png") no-repeat top left;
+    /*background: -o-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: -webkit-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: -moz-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: radial-gradient(5% 5%, farthest-side, #ffffff 10%, #fffda0 ,#ffffff ,#0067DB);*/
+}
+h1 {
+    padding: 20px 20px;
+    float: right;
+    font-family: Animated;
+    font-size: 48px;
+    font-weight: normal;
+    color: #fbc73d;
+}
+
+.VladoGHula {
+        margin-top: 220px;
+        margin-left: 35px;
+        position: absolute;
+}
+.PetiaHula {
+        margin-top: 190px;
+        margin-left: 170px;
+        position: absolute;
+}
+.TediHula {
+    margin-top: 360px;
+    margin-left: 250px;
+    position: absolute;
+}
+.NakovHula {
+    margin-top: 150px;
+    margin-left: 400px;
+    position: absolute;
+}
+.VladoKHula {
+    margin-top: 230px;
+    margin-left: 650px;
+    position: absolute;
+}
+.AlexHula {
+    margin-top: 200px;
+    margin-left: 470px;
+    position: absolute;
+}

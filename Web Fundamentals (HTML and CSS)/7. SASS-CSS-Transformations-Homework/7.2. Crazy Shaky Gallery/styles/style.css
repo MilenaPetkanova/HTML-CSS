@@ -1,0 +1,89 @@
+body {
+    background: #ddd;
+}
+#wrapper {
+    margin: 50px auto;
+    width: 750px;
+    height: 550px;
+    background-color: rgba(10,57,10,0.3);
+    box-shadow: 5px 5px 5px #888;
+    border-radius: 5px;
+    border: 1px solid #888;
+
+    transition: ease;
+    transition-duration: 10s;
+}
+img {
+    max-width: 100%;
+}
+div {
+    position: relative;
+    width: 220px;
+    height: 120px;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 1px;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.photo:hover {
+    cursor: pointer;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+#wrapper:active {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    z-index: 99;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
+
+/*.photo:not(:active) {
+    transition: background-color 10s step-end;
+}*/
+
+/*//*/
+/*a:active {
+-webkit-animation: getItBigger 3s alternate ease 1 ;
+-moz-animation: getItBigger 3s alternate ease 1 ;
+}
+
+@-webkit-keyframes getItBigger {
+from {
+    -webkit-transform:
+    rotate(4deg)
+    scale(1)
+    skew(1deg)
+    translate(10px); }
+to { -webkit-transform: rotate(360deg) scale(3) skew(1deg) translate(50px); }
+}
+@-moz-keyframes getItBigger {
+from { -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -moz-transform: rotate(360deg) scale(3) skew(1deg) translate(50px); }
+}*/
+/*//*/

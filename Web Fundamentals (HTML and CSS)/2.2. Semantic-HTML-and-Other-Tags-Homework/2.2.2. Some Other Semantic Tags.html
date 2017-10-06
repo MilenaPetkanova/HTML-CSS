@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some Other Semantic Tags</title>
+
+    <style>
+        #blackAudio {
+            width: 240px;
+            background: black;
+            padding:30px 2px 90px 2px;
+        }
+        /*figcaption {
+            margin-bottom: 30px;
+        }*/
+    </style>
+</head>
+
+<body>
+    <!-- figure, figcapture, meter -->
+    <figure>
+        <figcaption>This is my car.</figcaption>
+        <img src="Problem02-My-Car-Resources/fordmustang.jpg" alt="The Pulpit Rock" width="15%" height="15%">
+        <figcaption>Awesomeness completed 60%</figcaption>
+        <meter value="0.6">60%</meter>
+    </figure>
+
+    <!-- audio, source -->
+    <p><strong>Imagine 355 hourses simultaneously. That't how my car sounds</strong></p>
+    <audio id="blackAudio" controls autoplay>
+        <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="blackAudio" controls autoplay>
+        <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="blackAudio" controls autoplay>
+        <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <video width="240" height="160" align="left" poster="Problem02-My-Car-Resources/horse2.jpg" controls autoplay src="http://www.w3schools.com/tags/horse.ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- embed -->
+    <embed src="http://www.w3schools.com/tags/horse.ogg">
+
+    <!-- video -->
+    <p><strong>With my car I can go anywhere!</strong></p>
+    <video width="240" height="160" controls src="http://www.w3schools.com/tags/movie.mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- ? How to use track tags? -->
+
+</body>
+</html>

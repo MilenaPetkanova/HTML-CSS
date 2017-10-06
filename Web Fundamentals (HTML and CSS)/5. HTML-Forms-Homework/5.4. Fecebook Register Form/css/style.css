@@ -1,0 +1,122 @@
+    * {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #fff;
+}
+#wrapper {
+    width: 860px;
+    font-size: 15px;
+    background-color: #3B5997;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 120px;
+    letter-spacing: -5px;
+    margin-bottom: 20px;
+}
+header h1 > span {
+    font-size: 16px;
+    margin-left: 5px;
+    padding-right: 15px;
+}
+header h3 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+header h4 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#none-important-info > fieldset {
+    width: 310px;
+    height: auto;
+    padding: 10px 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+input {
+    padding: 5px 0px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+span {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+#important-info > fieldset {
+    width: 450px;
+    height: auto;
+    padding: 10px 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+select {
+    width: 140px;
+    padding: 5px 0px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+input[name="nr"],
+input[name="floor"],
+input[name="ap"] {
+    width: 70px;
+}
+input[type="color"] {
+    position: relative;
+    top: 8px;
+    width: 140px;
+    height: 30px;
+    padding: 0px 0px;
+}
+label {
+    display: inline-block;;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+textarea {
+    width: 440px;
+    height: auto;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+footer input {
+    padding: 10px auto;
+    border: none;
+    border-radius: 10px;
+    color: #3B5997;
+    background-color: #DDDDDD;
+}
+footer input[type="reset"] {
+    width: 330px;
+    height: 40px;
+    font-size: 1.1em;
+}
+footer input[type="submit"] {
+    position: relative;
+    top: 5px;
+    width: 480px;
+    height: 40px;
+    font-size: 1.5em;
+}
+#none-important-info,
+#important-info {
+    float: left;
+    margin: 0px 10px;
+}
+input[type="reset"],
+input[type="submit"] {
+    margin: 10px 10px;
+}

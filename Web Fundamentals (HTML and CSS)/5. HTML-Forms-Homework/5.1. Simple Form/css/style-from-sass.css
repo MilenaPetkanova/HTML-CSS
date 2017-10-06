@@ -1,0 +1,74 @@
+body {
+  font-family: Tahoma, Helvetica, sans-serif; }
+  body #wrapper {
+    width: 700px;
+    height: auto;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #5A5A5A;
+    background-color: #EEEEEE; }
+    body #wrapper form {
+      display: flex; }
+
+#new-user {
+  width: 350px; }
+  #new-user p {
+    font-weight: bold;
+    text-transform: uppercase; }
+    #new-user p span {
+      color: #234465; }
+  #new-user input[type="submit"] {
+    width: 150px;
+    margin-left: 166px;
+    right: 10px;
+    padding: 6px;
+    font-size: 20px;
+    border: 3px solid #234465;
+    color: #234465;
+    background-color: #EEEEEE; }
+
+#login-for-user {
+  width: 350px;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-top: 5px;
+  background-color: #224465;
+  color: #fff; }
+  #login-for-user p {
+    font-weight: bold;
+    text-transform: uppercase; }
+  #login-for-user input[type="checkbox"] {
+    float: left;
+    width: 10px;
+    vertical-align: sub;
+    font-size: 10px; }
+  #login-for-user input[type="submit"] {
+    float: right;
+    margin-right: 25px;
+    clear: both;
+    width: 140px;
+    padding: 6px auto;
+    font-size: 20px;
+    border: 3px solid #FF9C00;
+    background-color: #234465;
+    color: #fff; }
+  #login-for-user a {
+    float: right;
+    margin-right: 30px;
+    clear: both;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff; }
+
+h1 {
+  font-size: 1.9em;
+  font-weight: bold;
+  color: #234465; }
+
+input {
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 8px; }
+
+/*# sourceMappingURL=style-from-sass.css.map */

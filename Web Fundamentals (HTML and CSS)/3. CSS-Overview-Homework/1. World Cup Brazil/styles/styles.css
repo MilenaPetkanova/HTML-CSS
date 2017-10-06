@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+    text-transform: capitalize;
+}
+body {
+    background-color: green;
+}
+table {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+th, td {
+    border: 1px solid black;
+    height: 30px;
+    padding: 3px;
+}
+th {
+    background: #ffcc00;
+    font-size: 18px;
+    font-weight: bold;
+}
+td {
+    font-size:11px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #c2c2a3
+}
+tbody tr:nth-child(odd) {
+    background-color: #fff
+}
+
+table tr:nth-child(1) th:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+table tr:nth-last-child(1) td:nth-child(1) {
+    border-bottom-left-radius: 10px;
+}
+table tr:nth-child(1) th:nth-last-child(1) {
+    border-top-right-radius: 10px;
+}
+table tr:nth-last-child(1) td:nth-last-child(1) {
+    border-bottom-right-radius: 10px;
+}
+
+.host {
+    text-align: right;
+    width: 140px;
+}
+.guest {
+    text-align: left;
+    width: 140px;
+}
+.result, .group {
+    width: 50;
+}
+.bet {
+    width: 90px;
+}
+
+select {
+    width: 30px;
+    height: 25px;
+    color: green;
+}
+select:disabled {
+    color: red;
+}
+
+table tr:nth-child(1) td:nth-child(1):after {
+    content: url(../images/brasil.png);
+    margin: auto 5px;
+}
+table tr:nth-child(2) td:nth-child(1):after {
+    content: url(../images/spain.png);
+    margin: auto 5px;
+}
+table tr:nth-child(3) td:nth-child(1):after {
+    content: url(../images/italy.png);
+    margin: auto 5px;
+}
+table tr:nth-child(4) td:nth-child(1):after {
+    content: url(../images/argentina.png);
+    margin: auto 5px;
+}
+table tr:nth-child(5) td:nth-child(1):after {
+    content: url(../images/germany.png);
+    margin: auto 5px;
+}
+table tr:nth-child(1) td:nth-child(3):before {
+    content: url(../images/mexico.png);
+    margin: auto 5px;
+}
+table tr:nth-child(2) td:nth-child(3):before {
+    content: url(../images/netherlands.png);
+    margin: auto 5px;
+}
+table tr:nth-child(3) td:nth-child(3):before {
+    content: url(../images/england.png);
+    margin: auto 5px;
+}
+table tr:nth-child(4) td:nth-child(3):before {
+    content: url(../images/bosnia-herz.png);
+    margin: auto 5px;
+}
+table tr:nth-child(5) td:nth-child(3):before {
+    content: url(../images/portugal.png);
+    margin: auto 5px;
+}
+
+button {
+    background-color: red;
+    border-radius: 50%;
+    border: 1px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 10px;
+    padding: 6px 3px;
+}
+
+table tr:nth-child(1) td button,
+table tr:nth-child(2) td button,
+table tr:nth-child(3) td button {
+	background-color: red;
+
+}
+table tr:nth-child(4) td button,
+table tr:nth-child(5) td button {
+    background-color: green;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>edit user</h1>
+        </header>
+        <form action="#" method="post">
+            <fieldset>
+                <label for="usrnm">Username</label>
+                <input type="text" name="usrnm" id="usrnm" placeholder="Name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="nmbr">Phone number</label>
+                <input type="text" name="nmbr" id="nmbr" pattern="[0-9]">
+
+                <label for="usr-tp">User type</label>
+                <div id="user-type">
+                    <input type="radio" name="usr-tp" id="usr-tp" value="1"> <span>Broadband</span>
+                    <input type="radio" name="usr-tp" id="usr-tp" value="2" checked >  <span>Radio</span>
+                </div>
+
+                <label for="psswrd">Change Password</label>
+                <input type="password" name="psswrd" id="psswrd">
+
+                <!-- <label for="grps">User type</label>
+                <div id="groups">
+                    <input type="checkbox" name="grps" id="grps"> <span>All groups</span>
+                    <input type="checkbox" name="grps" id="grps"> <span>Group 1</span>
+                    <input type="checkbox" name="grps" id="grps"> <span>Group 2</span>
+                    <input type="checkbox" name="grps" id="grps"> <span>Group 3</span>
+                    <input type="checkbox" name="grps" id="grps"> <span>Group 4</span>
+                </div> -->
+
+                <p>Contacts</p>
+                <a href="#">See Contact list</a>
+
+                <div id="bottom-buttons">
+                    <input type="reset" value="CANCEL">
+                    <input type="submit" value="SAVE">
+                </div>
+
+                <!-- <input type="checkbox" name="deact" id="deact"> <span>Deactivate</span> -->
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- •	Font: 16px/20px "Roboto", Helvetica, sans-serif;
+https://fonts.googleapis.com/css?family=Roboto:400,500,700
+•	Default text: #1E1917;
+•	Title: 40px;
+•	Labels: 14px/500;
+•	Buttons font-size: 15px/700;
+•	Link: #136F63, 15px, no-hover effect
+Content max-width: 800px; Body centered, Top
+ -->

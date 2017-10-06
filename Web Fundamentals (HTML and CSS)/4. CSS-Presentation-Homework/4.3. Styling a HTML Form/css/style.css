@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url('../resources/formBackground.jpg') repeat-y center;
+    height: auto;
+    font: Tahoma, Verdana, sans-serif;
+}
+
+/*first form:*/
+.your-details {
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.your-details h1 {
+    padding: 0px 0px 10px 0px;
+    font-size: 1.2em;
+    color: #FFF;
+}
+.your-details div {
+    display: block;
+    margin-bottom: 3px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.your-details label {
+    text-align: left;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.your-details input[type="email"],
+.your-details input[type="text"] {
+    height: 30px;
+    width: 50%;
+    margin: 10px 60px 5px 90px;
+    padding: 0px 5px;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    outline: none;
+    color: #484848;
+}
+
+/*second form:*/
+.delivery-adress {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.delivery-adress h1 {
+    padding: 0px 0px 10px 0px;
+    font-size: 1.2em;
+    color: #FFF;
+}
+.delivery-adress div {
+    margin-bottom: 3px;
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.delivery-adress label {
+    padding-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+.delivery-adress input[type="text"] {
+    height: 30px;
+    width: 50%;
+    border: none;
+    color: #484848;
+    border-radius: 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    outline: none;
+}
+.delivery-adress input[name="post-code"] {
+    margin: 10px 50px 5px 70px;
+}
+.delivery-adress input[name="country"] {
+    margin: 10px 50px 5px 80px;
+}
+.delivery-adress textarea[name="adress"] {
+    height: 80px;
+    width: 50%;
+    margin: 10px 60px 5px 90px;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    color: #484848;
+    vertical-align: baseline;
+    outline: none;
+}
+
+/*third form:*/
+.card-details {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.card-details h1 {
+    padding: 0px 0px 10px 0px;
+    font-size: 1.2em;
+    color: #FFF;
+}
+.card-details div {
+    display: block;
+    margin-bottom: 3px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.card-details label,
+.card-details span {
+    text-align: left;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.card-details input[type="radio"] {
+    margin: 20px 0px 15px 20px;
+}
+.card-details img {
+    vertical-align: baseline;
+}
+.card-details input[type="text"] {
+    height: 30px;
+    width: 50%;
+    border: none;
+    color: #484848;
+    border-radius: 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    outline: none;
+}
+.card-details input[name="card-number"] {
+    margin: 10px 50px 5px 50px;
+}
+.card-details input[name="security-code"] {
+    margin: 10px 50px 5px 47px;
+}
+.card-details input[name="card-name"] {
+    margin: 10px 50px 5px 45px;
+    padding-left: 5px;
+}
+
+/*button, :active, :hover*/
+label>input[type="button"] {
+    margin: 10px 0px 20px 220px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    outline: none;
+    color: #fff;
+    background-color: #04152F;
+}
+.button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+}
+textarea:active, input:active {
+    background: #EAEAEA;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Jockey+One');
+@import url('https://fonts.googleapis.com/css?family=Iceland');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+}
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1260px;
+    width: 960px;
+    margin: 0px auto;
+}
+
+/*------------------------------header-----------------------------*/
+header {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    color: #FFFF01;
+    background-color: #000;
+}
+header #container {
+    height: 100px;
+    padding-left: 15px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo, nav {
+    font-family: 'Iceland', cursive;
+}
+nav {
+    font-size: 26px;
+}
+header #logo {
+    font-size: 50px;
+    vertical-align: center;
+    text-align: left;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+header nav > ul {
+    list-style: none;
+    text-align: right;
+
+}
+
+/*---------------------------------main---------------------------*/
+#banner > img {
+    max-width: 100%;
+    width: 960px;
+    margin-bottom: 20px;
+}
+section {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    width: 45%;
+    margin: 15px 10px;
+}
+article > img {
+    float: left;
+    display: block;
+    height: 150px;
+    weight: 150px;
+    margin-right: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #0F7303;
+}
+
+/*-----------------------footer----------------------*/
+footer {
+    height: auto;
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+#socials > img {
+    margin: 10px 5px;
+}
+footer ul {
+    list-style: none;
+    font-size: 16px;
+    color: #FFFF01;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+#copyright {
+    font-weight: normal;
+    font-size: 14px;
+}

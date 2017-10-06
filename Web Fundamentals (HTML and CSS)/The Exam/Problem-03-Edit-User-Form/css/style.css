@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+    background-color: #eee;
+}
+#wrapper {
+    min-width: 800px;
+    width: 800px;
+    margin: 0px auto;
+    font-size: 16px;
+    color: #1E1917;
+    background-color: #eee;
+}
+form {
+
+}
+header {
+    box-sizing: border-box;
+    padding: 0;
+    border-top: 7px solid #324E5B;
+    border-right: 7px solid #324E5B;
+}
+h1 {
+    padding: 30px;
+    font-size: 40px;
+    color: #324E5B;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+}
+fieldset {
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    width: 60%;
+    height: auto;
+    padding: 30px;
+}
+label, p {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: inherit;
+    border-top: 3px solid #324E5B;
+    border-left: 3px solid #324E5B;
+}
+fieldset > div#user-type {
+    display: flex;
+}
+span {
+    position: relative;
+    top: 12px;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 200px;
+}
+a {
+    margin-bottom: 30px;
+    color: #136F63;
+}
+#bottom-buttons {
+    display: flex;
+    margin-top: 20px;
+}
+input[type="reset"],
+input[type="submit"] {
+    width: 50%;
+    height: 40px;
+    color: #fff;
+    border: none;
+}
+input[type="reset"] {
+    background-color: #FF5427;
+    margin-right: 10px;
+}
+input[type="submit"] {
+    background-color: #136F63;
+}
+input[type="reset"]:hover {
+    cursor: pointer;
+    color: #FF5427;
+    background-color: #eee;
+    border-right: 3px solid #FF5427;
+    border-bottom: 3px solid #FF5427;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: #136F63;
+    background-color: #eee;
+    border-right: 3px solid #136F63;
+    border-bottom: 3px solid #136F63;
+}

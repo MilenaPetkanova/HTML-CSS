@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat's Media Player</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+        #wrapper {
+            width: 1030px;
+            height: auto;
+            background: powderblue;
+            overflow: auto;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header {
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+        }
+        section {
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border: 1px solid #000000;
+            padding: 10px;
+        }
+        figure {
+            margin-left: 30px;
+            margin-top: 0px;
+        }
+        audio {
+            width: 240px;
+            margin-left: 30px;
+            margin-top: 0px;
+        }
+        video {
+            margin-left: 30px;
+            margin-top: 0px;
+        }
+        p {
+            margin-top: 0px;
+            margin-left: 30px;
+            margin-bottom: 0px;
+        }
+        #bigAudio {
+            width: 236px;
+            background: black;
+            padding:30px 2px 120px 2px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header>
+            <h1>Profil</h1>
+        </header>
+
+        <section id="profil">
+            <figure>
+                <figcaption>User: Pesho</figcaption>
+                <img src="Problem03-Kent-s-Profile-Resources/pesho the cat.jpg" alt="cat's photo" width="180">
+                <figcaption>Profile completed: 10%</figcaption>
+                <meter value="0.1">10%</meter>
+            </figure>
+        </section>
+
+        <section id="audio">
+            <p>Uploaded Audio Files</p>
+
+            <audio id="bigAudio" controls>
+                <source src="Problem03-Kent-s-Profile-Resources/Cats-meowing.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <audio controls>
+                <source src="Problem03-Kent-s-Profile-Resources/Cats-meowing.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <audio controls>
+                <source src="Problem03-Kent-s-Profile-Resources/Cats-meowing.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <audio controls>
+                <source src="Problem03-Kent-s-Profile-Resources/Cats-meowing.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+        </section>
+
+        <section id="video">
+            <p>Uploaded Video Files</p>
+
+            <video width="240" height="150" align="left" controls poster="Problem03-Kent-s-Profile-Resources/nian cat.jpg" src="http://techslides.com/demos/sample-videos/small.mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </section>
+
+    </div>
+
+</body>
+</html>

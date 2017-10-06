@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Header</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/3e68439c21.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+
+        <header>
+            <div id="logo">
+                <a href="https://softuni.bg"><img src="img/logo.png" alt="logo"></a>
+            </div>
+
+            <menu>
+                <div id="personal-menu">
+                    <div id="notification-bar">
+                        <span>0</span>
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                    </div>
+                    <ul>
+                        <li>user <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            <ul>
+                                <li>smth</li>
+                                <li>smth</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="search-bar">
+                        <input type="text" name="search" id="search" placeholder="Search..." >
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="https://softuni.bg">news</a></li>
+                        <li><a href="https://softuni.bg">about the university</a> <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            <ul>
+                                <li>smth</li>
+                                <li>smth</li>
+                            </ul>
+                        </li>
+                        <li><a href="https://softuni.bg">training courses</a> <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            <ul>
+                                <li>smth</li>
+                                <li>smth</li>
+                            </ul>
+                        </li>
+                        <li><a href="https://softuni.bg">for companies</a></li>
+                        <li><a href="https://softuni.bg">forum</a></li>
+                        <li><a href="https://softuni.bg">contacts</a></li>
+                    </ul>
+                </nav>
+            </menu>
+        </header>
+
+        <div id="main">
+            <header>
+                <div class="container">
+                    <button id="apply" onclick="parent.location = 'https://softuni.bg/apply'">Apply now</button>
+                </div>
+            </header>
+
+            <main>
+                <!-- floated container with articles -->
+                <div class="container">
+                    <h2>News</h2>
+                    <article>
+                        <h3>level #0 starts on the 5th of july</h3>
+                        <div class="date">18/06/2014</div>
+                        <div id="clear-float"></div>
+                        <p>Published by: Alexandra Svilarova</p>
+                        <hr>
+                        <img src="img/calendar.png" alt="calendar img">
+                        <div class="notes">The deadline for application is extended to the 3rd of July</div>
+                        <hr>
+                        <div class="tags"><span>Tags:</span> software-university home-page softuni apply deadline application admission July </div>
+                    </article>
+                    <article>
+                        <h3>summer break + schedule for level #1</h3>
+                        <div class="date">13/06/2014</div>
+                        <div id="clear-float"></div>
+                        <p>Published by: Alexandra Svilarova</p>
+                        <hr>
+                        <img src="img/summer-break.png" alt="calendar img">
+                        <div class="notes">Summer break 2-10 august</div> <br>
+                        <hr>
+                        <div class="tags"><span>Tags:</span> software-university home-page softuni scedule summer-vacantion exams </div>
+                    </article>
+                    <article>
+                        <h3>lfeedback from softuni conf may 2014</h3>
+                        <div class="date">02/06/2014</div>
+                        <div id="clear-float"></div>
+                        <p>Published by: Petya Grozdarska</p>
+                        <hr>
+                        <img src="img/feedback.png" alt="calendar img">
+                        <div class="notes">Responses from the questionnaire about the usefulness of the SotfUni Conf</div>
+                        <hr>
+                        <div class="tags"><span>Tags:</span> software-university home-page softuni softuni-conf conference feedback </div>
+                    </article>
+                </div>
+            </main>
+
+            <footer>
+                <div>
+                    <!-- paging bar -->
+                    <ul>
+                        <li>
+                            <button id="one" onclick="#">1</button>
+                        </li>
+                        <li>
+                            <button id=two onclick="#">2</button>
+                        </li>
+                        <li>
+                            <button id="three" onclick="#">3</button>
+                        </li>
+                        <li>
+                            <button id="four" onclick="#">4</button>
+                        </li>
+                        <li>
+                            <button id="five" onclick="#">5</button>
+                        </li>
+                        <li>
+                            <button id="next" onclick="#">></button>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+
+
+        <footer>
+            <section>
+                <button id="apply" class="big-button" onclick="parent.location = 'https://softuni.bg/apply'">Apply Now</button>
+                <button id="courses" class="big-button" onclick="parent.location = 'https://softuni.bg/trainings/fasttracks'">Fast track courses</button>
+            </section>
+            <section>
+                <h3>about the university</h3>
+                <ul>
+                    <li>About</li>
+                    <li>Professions</li>
+                    <li>Plans</li>
+                    <li>Partner universities</li>
+                    <li>Partners</li>
+                    <li>Dorms</li>
+                    <li>Apply</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Нашите приятели</h3>
+                <ul>
+                    <li>Svetlin Nakov Blog</li>
+                    <li>C# book</li>
+                </ul>
+            </section>
+            <section>
+                <h3>software university learning system - 1.0.5287</h3>
+                <p>&copy; 2013-2014 - Software University. All Rights Reserved.</p>
+                <button id="tweeter" class="social-networks"><img src="imgces/Tweeter.JPG" alt="tweeter"></button>
+                <button id="facebook" class="social-networks"><img src="img/Facebook.JPG" alt="facebook"></button>
+                <button id="google-plus" class="social-networks"><img src="img/GooglePlus.JPG" alt="googlePl"></button>
+            </section>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoftwareUniversity%2F&tabs&width=230&height=200&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="230" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="css/style-from-sass.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Enter the system</h1>
+        <p>It is necessary to login in Your account in order to sign in for the course.</p>
+
+        <form method="get" action="#">
+            <div id="new-user">
+                <p>are you new? <span>register</span> </p>
+                <input type="text"
+                    name="user-name"
+                    requred="true"
+                    placeholder="User name" /> </br>
+                <input type="email"
+                    name="email"
+                    requred="true"
+                    placeholder="Email" /> </br>
+                <input type="password"
+                    name="pass"
+                    required="required"
+                    placeholder="Password" /> </br>
+                <input type="password"
+                    name="confirm-pass"
+                    required="required"
+                    placeholder="Confirm Password" /> </br>
+                <input type="submit" name="register" value="Register"/>
+            </div>
+            <!-- end of new-user -->
+
+            <div id="login-for-user">
+                <p>already a student? <span class="new-color">login</span> </p>
+                <input type="text"
+                    name="user-name"
+                    requred="true"
+                    placeholder="User name" /> </br>
+                <input type="password"
+                    name="pass"
+                    required="required"
+                    placeholder="Password" /> </br>
+                <input type="checkbox" name="remember-me" value="no" /> Remeber me <br>
+                <input type="submit" name="login" value="Login" /> <br>
+                <a href="#">Forgot password</a> <br>
+            </div>
+            <!-- end of "login-for-user" -->
+        </form>
+    </div>
+    <!-- end of "wrapper" -->
+</body>
+</html>

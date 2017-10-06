@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #04396F;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    width: 960px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: #1870B0;
+}
+/*----------------------------------------*/
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #04396F;
+}
+header #logo img {
+    display: block;
+    width: 100px;
+    max-width: 100%;
+    height: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+header nav ul {
+    width: 830px;
+    height: 100px;
+    margin-left: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #fff;
+}
+header nav ul > li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+header nav ul > li:hover {
+    border-radius: 10px;
+    color: #04396F;
+    background-color: #fff;
+}
+/*----------------------------------------*/
+footer {
+    height: 100px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    background-color: #04396F;
+}
+#list {
+    width: 240px;
+    padding-bottom: 10px;
+}
+#list > ul {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+#copyright {
+    width: 540px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 40px;
+}
+#copyright p {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+#socials {
+    width: 240px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#socials > div {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border: 2px solid #aaa;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+#fb-button {
+    background: url('../Resources/images/mini-social-icons.png');
+}
+#gp-button {
+    background: url('../Resources/images/mini-social-icons.png');
+    background-position: 86px 0;
+}
+#tw-button {
+    background: url('../Resources/images/mini-social-icons.png');
+    background-position: 43px 0;
+}
+
+/*----------------------------------------*/
+main {
+    height: 500px;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    box-sizing: border-box;
+}
+main section {
+    width: 470px;
+    box-sizing: border-box;
+}
+section h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+section table {
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+table th {
+    font-size: 13px;
+    border: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+}
+table tr > td {
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+table tr > td:nth-of-type(1) {
+    padding: 5px 10px;
+}
+table tr > td:nth-of-type(2) {
+    width: 200px;
+    padding: 5px;
+}
+table tr > td:nth-of-type(3),
+table tr > td:nth-of-type(4),
+table tr > td:nth-of-type(5) {
+    font-weight: normal;
+    padding: 5px 10px;
+}
+table tr > td:nth-of-type(6) {
+    padding: 5px 20px;
+        border-right: 1px solid #fff;
+}
+table tr:nth-of-type(2),
+table tr:nth-of-type(3) {
+    background-color: #11757C;
+}
+table tr:nth-of-type(4) {
+    font-style: italic;
+    background-color: #5D957C;
+}
+table tr:nth-of-type(5) {
+    font-weight: normal;
+    background-color: #5D4F7C;
+}
+
+/*----------------------------------*/
+main form {
+    width: 400px;
+    height: 495px;
+    box-sizing: border-box;
+    color: #fff;
+}
+form fieldset {
+    height: auto;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #04396F
+}
+fieldset > legend {
+    margin-left: 15px;
+    font-weight: bold;
+}
+fieldset > label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+fieldset > label > span {
+    color: rgb(255, 0, 0);
+}
+fieldset > input {
+    display: block;
+    height: 40px;
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px auto;
+    text-align: center;
+    font-size: 17px;
+    color: #aaa;
+    background-color: #04396F;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+fieldset #not-required {
+    width: 100%;
+    height: 20%;
+    padding: 5px;
+    display: flex;
+}
+fieldset #not-required label {
+    margin: 2px auto;
+}
+fieldset #not-required > .left > select,
+fieldset #not-required > .right > div {
+    width: 180px;
+    margin: 3px;
+    display: block;
+    background-color: #04396F;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+select {
+    height: 30px;
+    padding-left: 10px;
+    font-size: bold;
+    color: #fff;
+    background-color: #04396F;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+optgroup, option {
+    /*!not working*/
+    font-size: bold;
+    color: #fff;
+    background-color: #04396F;
+}
+form fieldset:nth-of-type(2) {
+    padding: 10px;
+}
+
+#bottom-buttons {
+    display: flex;
+}
+#bottom-buttons input {
+    height: 35px;
+    width: 47%;
+    box-sizing: border-box;
+    padding: 5px auto;
+    margin: 0px 5px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+input[type="submit"] {
+    background-color: #0AC646;
+}
+input[type="submit"]:hover {
+    background-color: rgba(10,198,70,0.5);
+}
+input[type="reset"] {
+    background-color: #A32D46;
+}
+input[type="reset"]:hover {
+    background-color: rgba(163,45,70,0.5);
+}

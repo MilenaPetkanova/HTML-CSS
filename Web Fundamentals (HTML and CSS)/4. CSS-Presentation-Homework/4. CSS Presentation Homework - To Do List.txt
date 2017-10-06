@@ -1,0 +1,12 @@
+
+To Do:
+
+4.1. The Jaunty Text Field:
+-> grey bubbles
+-> top yellow border - squares, not dots
+
+4.2. SoftUni Hawaii Vacantion
+-> sun gradient
+
+4.3. Styling a HTML Form:
+-> nothing

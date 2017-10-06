@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+	background-image: url(../images/colorful_dots_on_black.jpg);
+	background-repeat: repeat;
+    font-family: "Verdana";
+    font-size: 14px;
+}
+body>header {
+    width: 115%;
+    height: 100px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    color: yellow;
+    background: linear-gradient(to right, red, red 33.3%, green 33.3%, green 67.7%, blue 67.7%);
+}
+aside nav {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 40px 40px 0px 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+aside nav header {
+    border-radius: 10px;
+    font-size: 2em;
+    text-decoration: underline;
+    background-color: none;
+}
+aside nav ul {
+    list-style-image: url(../images/green_tick_20px.png);
+    line-height: 40px;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 1.4em;
+}
+aside nav ul li>a {
+    text-decoration: none;
+    color: black;
+}
+aside nav ul li:hover {
+	width: 260px;
+	border-radius: 10px;
+}
+aside nav ul li:nth-child(1):hover {
+	background: red;
+}
+aside nav ul li:nth-child(2):hover {
+	background: orange;
+}
+aside nav ul li:nth-child(3):hover {
+	background: yellow;
+}
+aside nav ul li:nth-child(4):hover {
+	background: green;
+}
+aside nav ul li:nth-child(5):hover {
+	background: blue;
+}
+aside nav ul li:nth-child(6):hover {
+	background: purple;
+}
+aside nav ul a:visited {
+	color: grey;
+}
+
+section {
+	margin-top: 40px;
+	margin-left: 370px;
+}
+section article {
+    width: 1100px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 30px;;
+	padding: 10px;
+	padding: 10px;
+	text-align: left;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.9);
+}
+section article header {
+    width: 99%;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 2.5em;
+}
+#webColors {
+    background-color: red;
+}
+#webSafeColors {
+    color: black;
+    background-color: orange;
+}
+#RGB {
+    color: black;
+    background-color: yellow;
+}
+#RGBA {
+    background-color: green;
+}
+#\#HSLHSV {
+    background-color: blue;
+}
+#\#lorem {
+    background-color: purple;
+}
+section article div:first-line {
+    font-style: italic;
+}
+section article div:first-letter {
+    font-size: 4em;
+}
+section article div:first-line {
+    font-style: italic;
+}
+section article footer>a {
+    font-style: italic;
+    color: grey;
+}

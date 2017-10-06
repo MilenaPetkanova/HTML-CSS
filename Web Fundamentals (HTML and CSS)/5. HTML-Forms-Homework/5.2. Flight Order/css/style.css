@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    background-color: #fff;
+}
+#wrapper {
+    width: 550px;
+    height: auto;
+    padding: 10px 10px;
+    margin: 20px;
+    background-color: #FFC0CB;
+}
+form {
+   display: flex;
+   align-content: space-around;
+}
+fieldset {
+    margin: 5px;
+    padding: 0px;
+    border: none;
+}
+form fieldset:nth-of-type(1) > div:nth-of-type(2) {
+    margin-top: 35px;
+}
+form fieldset:nth-of-type(2) > div:nth-of-type(2) {
+    display: inline-block;
+}
+input[type="time"] {
+    width: 120px;
+}
+div {
+    margin: 5px;
+}
+h1 {
+    margin: 0px auto;
+    font-size: 36px;
+    text-align: center;
+}
+h1, label, span {
+    font-style: italic;
+}
+input, select {
+    width: 240px;
+    box-sizing: border-box;
+}
+input[type="number"], input, select {
+    font-size: 18px;
+}
+input[type="checkbox"] {
+    width: 10px;
+}
+input[type="number"] {
+    width: 70px;
+}
+input[type="reset"] {
+    margin-top: 5px;
+}
+.container {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}

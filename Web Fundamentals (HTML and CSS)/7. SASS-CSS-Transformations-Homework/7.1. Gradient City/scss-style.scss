@@ -1,0 +1,204 @@
+$default-color: #808080;
+$default-font-size: 15px;
+@mixin double-border {
+    border: 3px double $default-color;
+    // border-style: double;
+}
+@mixin gradientGenerator($type, $direction, $start-color, $end-color) {
+    @if $type == 'linear' {
+        background: linear-gradient(to $direction, $start-color, $end-color);
+    }
+    @else {
+        background: radial-gradient($start-color, $end-color);
+    }
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    @include gradientGenerator(linear, bottom, #808080, #f2f2f2);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    #wrapper {
+        width: 900px;
+        margin: 0px auto;
+        padding: 20px;
+        text-align: center;
+        color: $default-color;
+        background-color: #fff;
+        @include double-border;
+        header {
+            margin-bottom: 20px;
+            @include double-border;
+            border-top: 3px solid $default-color;
+            h1 {
+                margin: 10px;
+                font-size: 36px;
+                font-weight: bold;
+            }
+            nav ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                li {
+                    width: 90px;
+                    padding: 5px;
+                    font-size: $default-font-size;
+                    @include double-border;
+                    background-color: none;
+                    a {
+                        color: $default-color;
+                        text-decoration: none;
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                    &:hover {
+                        @include gradientGenerator(linear, bottom, #808080, #f2f2f2);
+                    }
+                }
+            }
+        }
+
+        footer {
+            padding-bottom: 0px;
+            padding: 20px;
+            @include double-border;
+            h3 {
+                margin: 0px;
+                font-weight: normal;
+                font-size: 19px;
+                text-decoration: underline;
+            }
+            ul {
+                list-style: none;
+                margin-bottom: 0px;
+                li a {
+                color: $default-color;
+                font-size: $default-font-size;
+                text-decoration: none;
+                }
+            }
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            @include double-border;
+            header {
+                border: none;
+                h1 {
+                    font-weight: normal;
+                    font-size: 20px;
+                    text-decoration: underline;
+                }
+            }
+            article {
+                margin-bottom: 10px;
+                border: 1px solid $default-color;
+                h2 {
+                    font-size: $default-font-size;
+                    font-weight: normal;
+                }
+                .innerContainer {
+                    padding: 0px;
+                    margin-bottom: 20px;
+                    box-sizing: border-box;
+                    div {
+                        width: 130px;
+                        height: 130px;
+                        display: inline-block;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.linear {
+    article:nth-child(2) {
+        .purple {
+            @include gradientGenerator(linear, bottom, rgba(57,10,57,1), rgba(57,10,57,0));
+        }
+        .blue {
+            @include gradientGenerator(linear, bottom, rgba(26,26,184,1), rgba(26,26,184,0));
+        }
+        .green {
+            @include gradientGenerator(linear, bottom, rgba(10,57,10,1), rgba(10,57,10,0));
+        }
+        .yellow {
+            @include gradientGenerator(linear, bottom, rgba(245,245,9,1), rgba(245,245,9,0));
+        }
+        .orange {
+            @include gradientGenerator(linear, bottom, rgba(237,157,24,1), rgba(237,157,24,0));
+        }
+        .red {
+            @include gradientGenerator(linear, bottom, rgba(211,25,25,1), rgba(211,25,25,0));
+        }
+    }
+    article:nth-child(3) {
+        .purple {
+            @include gradientGenerator(linear, right, rgba(57,10,57,1), rgba(57,10,57,0));
+        }
+        .blue {
+            @include gradientGenerator(linear, right, rgba(26,26,184,1), rgba(26,26,184,0));
+        }
+        .green {
+            @include gradientGenerator(linear, right, rgba(10,57,10,1), rgba(10,57,10,0));
+        }
+        .yellow {
+            @include gradientGenerator(linear, right, rgba(245,245,9,1), rgba(245,245,9,0));
+        }
+        .orange {
+            @include gradientGenerator(linear, right, rgba(237,157,24,1), rgba(237,157,24,0));
+        }
+        .red {
+            @include gradientGenerator(linear, right, rgba(211,25,25,1), rgba(211,25,25,0));
+        }
+    }
+    article:nth-child(4) {
+        .purple {
+            @include gradientGenerator(linear, bottom right, rgba(57,10,57,1), rgba(57,10,57,0));
+        }
+        .blue {
+            @include gradientGenerator(linear, bottom right, rgba(26,26,184,1), rgba(26,26,184,0));
+        }
+        .green {
+            @include gradientGenerator(linear, bottom right, rgba(10,57,10,1), rgba(10,57,10,0));
+        }
+        .yellow {
+            @include gradientGenerator(linear, bottom right, rgba(245,245,9,1), rgba(245,245,9,0));
+        }
+        .orange {
+            @include gradientGenerator(linear, bottom right, rgba(237,157,24,1), rgba(237,157,24,0));
+        }
+        .red {
+            @include gradientGenerator(linear, bottom right, rgba(211,25,25,1), rgba(211,25,25,0));
+        }
+    }
+}
+
+.radial {
+    article:nth-child(2) {
+        padding-top: 20px;
+        .purple {
+            @include gradientGenerator(radial, bottom, rgba(57,10,57,1), rgba(57,10,57,0));
+        }
+        .blue {
+            @include gradientGenerator(radial, bottom, rgba(26,26,184,1), rgba(26,26,184,0));
+        }
+        .green {
+            @include gradientGenerator(radial, bottom, rgba(10,57,10,1), rgba(10,57,10,0));
+        }
+        .yellow {
+            @include gradientGenerator(radial, bottom, rgba(245,245,9,1), rgba(245,245,9,0));
+        }
+        .orange {
+            @include gradientGenerator(radial, bottom, rgba(237,157,24,1), rgba(237,157,24,0));
+        }
+        .red {
+            @include gradientGenerator(radial, bottom, rgba(211,25,25,1), rgba(211,25,25,0));
+        }
+    }
+}
