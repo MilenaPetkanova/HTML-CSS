@@ -1,4 +1,5 @@
 # Web Fundamentals (HTML/CSS) - August 2016
+[Cetificate](https://softuni.bg/certificates/details/14016/8264f24f)
 
 ## The course covers:
 
@@ -13,4 +14,3 @@ Tool, etc.
 - CSS Layout & Positioning
 - Responsive Design. Bootstrap
 
-[Cetificate](https://softuni.bg/certificates/details/14016/8264f24f)
